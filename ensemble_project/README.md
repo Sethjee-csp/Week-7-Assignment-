@@ -5,24 +5,7 @@ This project applies ensemble learning techniques—specifically Bagging and Boo
 This assignment is part of CST600 — Week 7 and was implemented using VS Code, Python, and scikit-learn, following a modular, production-ready file structure.
 
 
-Project Structure
-ensemble_project/
-│── README.md
-│── requirements.txt
-│── .gitignore
-│── figures/
-│     ├── confusion_matrix_base_tree.png
-│     ├── confusion_matrix_bagging.png
-│     ├── confusion_matrix_boosting.png
-│
-└── src/
-      ├── data_load.py
-      ├── preprocess.py
-      ├── base_tree.py
-      ├── bagging_model.py
-      ├── boosting_model.py
-      ├── evaluate.py
-      ├── main.py
+
 
 Dataset Information
 
@@ -97,7 +80,7 @@ Model	Accuracy	Precision	Recall	F1 Score
 Decision Tree	0.9123	0.9559	0.9028	0.9286
 Bagging (50 trees)	~0.94–0.96	High 94–96%	High 95–97%	High 95–96%
 Boosting (AdaBoost)	~0.95–0.97	High 94–96%	Highest 97–99%	Highest 96–97%
-📌 Key Findings:
+Key Findings:
 
 Boosting achieved the best recall (critical for cancer diagnosis).
 
